@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    height: 70px;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image:url(hacker-8033977.jpg);
+    background-size:100%;
+    background-position:50%;
+}
+label{
+    font-size: 45px;
+    color: white;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: bolder;
+}
+nav ul {
+    float: right;
+    
+}
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 15px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    font-weight: 300;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background: #f3cb17;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-int{
+    font-size: 35px;
+    margin-top: 7%;
+    margin-left: 100px ;
+}
+.header-int p {
+    font-weight: bold;
+}
+.header-int h1 {
+    margin-top: 15px;
+    font-size: 60px;
+    margin-left: 20px;
+}
+span{
+    color: #f3cb17;
+}
+button{
+    margin-left: 200px;
+    margin-top: 10px;
+    background-color:#f3cb17 ;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #f3cb17 ;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    box-shadow: 3px 3px 3px 3px;
+    transition: ease 0.5s;
+}
+#hire{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color:#f50c0c ;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #f50c0c ;
+    border-radius: 10px;
+    cursor: pointer;
+   
+
+}
+button:hover{
+    box-shadow: 5px 5px 5px 5px;
+    transform: translateY(-5px);
+}
+/*-------about me --------*/
+#about{
+    padding: 60px 0 ;
+    background: #061810;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img {
+    width: 30%;
+    height: 550px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: -25px;
+}
+.about-col-2{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    left: 40%;
+    bottom: -90%;
+}
+.sub{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.tab{
+    display: flex;
+    margin: 20px 0 40px ;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background: #f3cb17;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active::after{
+    width: 50%;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active{
+    display: block;
+}
+.services{
+    margin-left: 30px;
+}
+#services{
+    padding: 30px  0 ; 
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 35px;
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 70px;
+}
+.services-list div {
+    padding: 40px;
+    font-size: 15px;
+    background: #000000;
+    border-radius: 20px;
+    border-right: 10px;
+    font-weight: 300;
+    transition: background 0.8s ease , transform 0.5s ease;
+    cursor: pointer;
+}
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.services-list div h2{
+    font-weight: 900;
+    font-size: 30px;
+}
+.services-list div:hover{
+    background: #f3cb17;
+    transform: translateY(-15px);
+    color: #000000;
+}
+.services-list div a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+div h2 {
+   width: 80%;
+   margin-left: 90px;
+}
+/*--------contact---------*/
+#contact{
+    background: #07070749;
+}
+.container-left{
+    margin-left: 10px;
+}
+
+.container-left p {
+    margin-top: 30px;
+}
+.container-left p i {
+    margin-right:15px ;
+    color: #f3cb17;
+    font-size: 25px;
+}
+.social{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 15px;
+    transition: transform 0.5s ;
+}
+.social a:hover{
+    color: #f3cb17;
+    transform: translateY(-10px);
+}
+.contactcv{
+    margin-left: 20px;
+}
+.container-right{
+    width: 70%;
+    position: absolute;
+    left: 25%;
+    bottom: -300%;
+    padding: 5px;
+}
+.container-right form{
+    width: 100%;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 15px;
+    margin: 15px 0;
+    background: #262626;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.submit{
+    margin: 20px;
+}

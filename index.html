@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+<body>
+  
+    <div id="header">
+    <nav>
+        <label for=""><span>H</span>adi_</label>
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-int">
+        <p>Security Analyst</p>
+        <h1>Welcome! I'm <span class="multi">Hadi</span> <br> from Algeria</h1>
+    </div>
+    <a href="Cv.pdf" download ><button>Download CV</button></a>
+    <span>   </span> <button id="hire">Hire Me</button>
+</div>
+
+<!-- about -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="anonym-4764566.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub">About Me</h1>
+                <br>
+                <p>
+                    I'm a dedicated security analyst, skilled in 
+                    protecting digital landscapes. With a Google
+                     Cybersecurity Certificate in hand, I possess
+                      up-to-date knowledge and expertise. My passion
+                      lies in safeguarding systems from cyber threats,
+                       ensuring robust defense measures. Let me fortify
+                        your digital assets and provide peace of mind.</p>
+
+                   <div class="tab">
+                    <p class="tab-links active" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                   </div>
+                   <div class="tab-contents active " id="Skills">
+                    <ul>
+                        <li><span>Incident Response</span><br>identifying, analyzing, and responding
+                             to security incidents promptly and effectively.Mitigates risks,
+                              minimizes damage, and restores systems to a secure state.</li>
+                              <br>
+                        <li><span>Vulnerability Management</span><br>
+                            knowledge and techniques to assess, prioritize, and address 
+                            vulnerabilities in computer networks and systems.Implements
+                             proactive measures to prevent potential security breaches.</li>
+                             <br>
+                        <li><span>Network Security</span><br>A deep understanding of network protocols
+                            , architectures, and security controls.Designs and implements 
+                            secure network infrastructures, detects and mitigates threats, and ensures
+                             data confidentiality and integrity.</li>
+                        </ul>
+                   </div>
+                   <div class="tab-contents" id="Experience">
+                    
+                   </div>
+                   <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Google Cybersecurity</span><br>an online course 
+                            authorized by Google and offered through Coursera <br>
+                        <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/T9N9PZDZSAK7">
+                            <i class="fa-regular fa-bullseye-pointer"></i>See Certificate</a></li>
+                   </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- services-->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub services">Services</h1>
+        <div class="services-list">
+           <div>
+            <i class="fa-solid fa-skull-crossbones"></i>
+             <h2>Penetration Testing </h2>
+             <br>
+             <p>Offer security
+                 assessments and penetration testing services to evaluate
+                  the security posture of clients' systems, networks, 
+                  or applications. Conduct thorough assessments, 
+                  identify vulnerabilities, and attempt to exploit them to 
+                  assess the potential impact. Provide
+                   detailed reports outlining the vulnerabilities discovered 
+                   and recommendations for remediation.</p>
+                   <br>
+                   <a href="#">Learn more</a>
+           </div>
+           <div>
+            <i class="fa-solid fa-lock"></i>
+            <h2>Security Consulting and Advisory </h2>
+            <br>
+            <p>Offer consulting and advisory services. 
+                This involves assessing clients' 
+                existing security measures, identifying 
+                gaps, and providing recommendations on how
+                 to enhance security posture.Assist with security policy development, 
+                 compliance assessments, risk management, 
+                 and security awareness training.</p>
+                 <br>
+                 <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-key"></i>
+            <h2>Incident Response and Forensics </h2>
+            <br>
+            <p>Offer incident response services by providing rapid incident triage, 
+             containment, and remediation support. Additionally,  provide digital 
+             forensics expertise to analyze and investigate security incidents,
+              recover compromised systems, and gather evidence for legal or compliance purposes.</p>
+              <br>
+              <a href="#">Learn more</a>
+          </div>
+        </div>
+        <br>
+        <h2>I am open to providing a wide range of specific security
+            services tailored to your unique needs feel free to ask for any specific
+            service you require in  <a href="#contact">Contact Me</a></h2>
+    </div>
+</div>
+
+<!--contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="container-left">
+                <h1 class="sub">Contact Me</h1>
+                <br>
+                <p> <i class="fa-solid fa-paper-plane"></i> hadi.abdat10@gmail.com</p>
+                <br>
+                <div class="social">
+                    <a href="https://www.instagram.com/_.killua__99/" 
+                    target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/hadi-abdat-11931226b/" target="_blank
+                    "><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/HADIABDAT" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <br>
+                <a href="Cv.pdf" download ><button class="contactcv">Download CV</button></a>
+            </div>
+            <div class="container-right">
+                <form action="">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="submit" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
